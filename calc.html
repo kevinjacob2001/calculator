@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KJ SYS.</title>
+    <link rel="stylesheet" href="calc.css" />
+    <script src="calc.js"></script>
+  </head>
+  <body>
+    <div id="main">
+        <h1><u>ONLINE CALCULATOR by KEVIN JACOB</h1></u></h>
+            <h2>This is a quick,convenient and an <i>adipoli</i> online calculator with very high precision :-)</h2>
+            <p>(don't hesitate to get in touch with me if there is an occurrence of any malfunctions and all suggestions are welcome! ;-))</p>
+      <div id="calc">
+        <div id="output">
+          <input type="text" id="screen" />
+        </div>
+        <button onclick="clearb()" id="btn">CLEAR</button>
+        <div>
+          <div id="row">
+            <button onclick="clickb(7)" id="btn">7</button>
+            <button onclick="clickb(8)" id="btn">8</button>
+            <button onclick="clickb(9)" id="btn">9</button>
+            <button onclick="clickb('/')" id="btn">/</button>
+          </div>
+
+          <div id="row">
+            <button onclick="clickb(4)" id="btn">4</button>
+            <button onclick="clickb(5)" id="btn">5</button>
+            <button onclick="clickb(6)" id="btn">6</button>
+            <button onclick="clickb('*')" id="btn">*</button>
+          </div>
+
+          <div id="row">
+            <button onclick="clickb(1)" id="btn">1</button>
+            <button onclick="clickb(2)" id="btn">2</button>
+            <button onclick="clickb(3)" id="btn">3</button>
+            <button onclick="clickb('-')" id="btn">-</button>
+          </div>
+
+          <div id="row">
+            <button onclick="clickb(0)" id="btn">0</button>
+            <button onclick="clickb('.')" id="btn">.</button>
+            <button onclick="equalClick('=')" id="btn">=</button>
+            <button onclick="clickd('+')" id="btn">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

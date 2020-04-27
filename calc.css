@@ -1,0 +1,42 @@
+body{
+
+background:peachpuff;
+}
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+    
+}
+
+#calc {
+  width: 400px;
+  height: 500px;
+  background: purple;
+  border: red solid;
+  margin-left: 30%;
+  padding-top: 20px;
+  padding-left: 9px;
+  border-radius: 15px;
+}
+#screen {
+  width: 350px;
+  height: 60px;
+  margin-left: 5%;
+  pointer-events: none;
+  border-radius: 7px;
+  border:darkblue;
+}
+#output {
+  padding-bottom: 20px;
+}
+#row {
+  padding-top: 20px;
+  margin-left: 4%;
+  margin-bottom: 24px;
+}
+#btn {
+  width: 60px;
+  height: 45px;
+  background: rgb(147, 192, 175);
+  margin-left: 20px;
+}
